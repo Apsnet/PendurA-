@@ -1,5 +1,15 @@
 <resources>
+
     <string name="app_name">PendurAí</string>
+
+    <!--strings usadas no activitycadastro-->
     <string name="titulo_botao">Alterar</string>
+    <!--strings usadas no menu-->
+
+    <String name="consultar">Consultar</String>
+    <String name="perfil">Perfil</String>
+
+    <!--strings usadas no mainactivity-->
+    <String name="vazio">Vazio</String>
 
 </resources>

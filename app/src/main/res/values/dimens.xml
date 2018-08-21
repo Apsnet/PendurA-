@@ -1,0 +1,54 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!-- ACTIVITY TELA INICIAL -->
+    <dimen name="af_top_padrao">20dp</dimen>
+    <dimen name="tam_btn_entra">200dp</dimen>
+    <dimen name="af_top_btn_entra">390dp</dimen>
+
+
+    <!-- ACTIVITY TELA LOGIN -->
+    <dimen name="af_lay_padrao">20dp</dimen>  <!-- Afastamento do layoute de senha e login -->
+    <dimen name="af_comp_padrao">15dp</dimen> <!-- Afastamento padrão entre os componentes-->
+    <dimen name="af_top_tv_esq_senha">5dp
+    </dimen> <!-- Afastamento do topo textview novo cadastro -->
+    <dimen name="af_left_tv_esq_senha">20dp
+    </dimen> <!-- Afastamento pela esquerda textview novo cadastro -->
+    <dimen name="af_top_lay_novo_cadast">70dp
+    </dimen> <!-- Afastamento do topo layout novo cadastro -->
+    <dimen name="af_left_lay_novo_cadast">20dp
+    </dimen> <!-- Afastamento pela esquerda layout novo cadastro -->
+    <dimen name="af_left_tv_novo_cadast">10dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen> <!-- Afastamento pela esquerda textview novo cadastro -->
+
+    <!-- ACTIVITY TELA HOME-->
+    <dimen name="size_card_sp">150dp</dimen> <!-- Tamanho do card do supermercado-->
+
+    <!-- Foto do carro -->
+    <dimen name="foto_carro_width">260dp</dimen>
+    <dimen name="foto_carro_height">110dp</dimen>
+
+    <!-- Largura/Altura da img do carro -->
+    <dimen name="img_carro_adapter_width">250dp</dimen>
+    <dimen name="img_carro_adapter_height">107dp</dimen>
+    <dimen name="img_carro_width">300dp</dimen>
+    <dimen name="img_carro_height">128dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+
+    <!-- EditarCarroFragment -->
+    <dimen name="popup_width">300dp</dimen>
+    <dimen name="popup_height">300dp</dimen>
+
+    <!-- Activity Minha lista de compras -->
+    <dimen name="detail_backdrop_height">256dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="list_item_avatar_size">40dp</dimen>
+
+
+</resources>
