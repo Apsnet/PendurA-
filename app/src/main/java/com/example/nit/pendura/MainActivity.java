@@ -9,7 +9,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.nit.pendura.Auxiliar.BaseActivity;
+
+public class MainActivity extends BaseActivity {
     private Button bt_mudar_texto;
     private EditText ed_nome, ed_apelido, ed_telefone;
 
@@ -18,13 +20,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setUpToolbar();
+        setupNavDrawer();
+
 
         //Vinculando o java a interface xml
         ed_nome = (EditText) findViewById(R.id.ed_nome);
         ed_apelido = (EditText) findViewById(R.id.ed_apelido);
         ed_telefone = (EditText) findViewById(R.id.ed_telefone);
 
-        bt_mudar_texto = (Button) findViewById(R.id.bt_mudar_texto);
+        /*bt_mudar_texto = (Button) findViewById(R.id.bt_mudar_texto);
 
 
 
@@ -41,6 +46,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getBaseContext(), nome + " " + apelido + " " + telefone, Toast.LENGTH_SHORT).show();
             }
 
-        });
+        });*/
     }
 }

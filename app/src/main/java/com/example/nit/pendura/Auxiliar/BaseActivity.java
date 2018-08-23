@@ -27,9 +27,9 @@ public class BaseActivity extends livroandroid.lib.activity.BaseActivity {
 
     protected void setupNavDrawer() {
         // Drawer Layout
-        final ActionBar actionBar = getSupportActionBar();
+         ActionBar actionBar = getSupportActionBar();
         // Ícone do menu do nav drawer
-        actionBar.setHomeAsUpIndicator(R.drawable.baseline_menu_white_18dp);
+        actionBar.setHomeAsUpIndicator(R.drawable.ic_menu);
         actionBar.setDisplayHomeAsUpEnabled(true);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
@@ -64,7 +64,7 @@ public class BaseActivity extends livroandroid.lib.activity.BaseActivity {
 
         switch (menuItem.getItemId()) {
 
-            case R.id.nav_historia:
+            case R.id.nav_camera:
 
 
                 break;
@@ -72,10 +72,6 @@ public class BaseActivity extends livroandroid.lib.activity.BaseActivity {
                 break;
 
         }
-    }
-
-    protected void replaceFragment(Fragment frag) {
-        getSupportFragmentManager().beginTransaction().replace(R.id.container, frag, "TAG").commit();
     }
 
     @Override

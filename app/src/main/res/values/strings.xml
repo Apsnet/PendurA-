@@ -6,10 +6,23 @@
     <string name="titulo_botao">Alterar</string>
     <!--strings usadas no menu-->
 
-    <String name="consultar">Consultar</String>
-    <String name="perfil">Perfil</String>
+    <string name="consultar">Consultar</string>
+    <string name="perfil">Perfil</string>
 
     <!--strings usadas no mainactivity-->
-    <String name="vazio">Vazio</String>
+    <string name="vazio">Vazio</string>
+
+    <!--strings usadas na tela de login-->
+    <string name="app_name">MaterialLogin</string>
+    <string name="login_success">login success</string>
+    <string name="login">LOGIN</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="next">NEXT</string>
+    <string name="register">REGISTER</string>
+
 
 </resources>

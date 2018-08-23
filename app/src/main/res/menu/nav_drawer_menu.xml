@@ -3,23 +3,23 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/nav_prefencias"
+            android:icon="@drawable/ic_done"
+            android:title="@string/empty"
             android:checked="true"/>
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/nav_vtps"
+            android:icon="@drawable/ic_done"
+            android:title="@string/empty"
             android:checked="true"/>
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/nav_ia"
+            android:icon="@drawable/ic_done"
+            android:title="@string/empty"
             android:checked="true"/>
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/nav_ajuda"
+            android:icon="@drawable/ic_done"
+            android:title="@string/empty"
             android:checked="true"/>
     </group>
 
@@ -27,13 +27,13 @@
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="@string/nav_sp"
+                android:icon="@drawable/ic_done"
+                android:title="@string/empty"
                 android:checked="true"/>
             <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/nav_sop"
+                android:icon="@drawable/ic_done"
+                android:title="@string/empty"
                 android:checked="true"/>
         </menu>
     </item>
