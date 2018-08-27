@@ -14,4 +14,11 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+    <style name="TextLabel" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlActivated">#FFCC00</item>
+    </style>
+
+
+
 </resources>

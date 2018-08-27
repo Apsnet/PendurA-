@@ -13,7 +13,7 @@
     <string name="vazio">Vazio</string>
 
     <!--strings usadas na tela de login-->
-    <string name="app_name">MaterialLogin</string>
+    <string name="app_nameLogin">MaterialLogin</string>
     <string name="login_success">login success</string>
     <string name="login">LOGIN</string>
     <string name="Username">Username</string>
