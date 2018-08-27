@@ -3,6 +3,8 @@ package com.example.nit.pendura.Cadastro;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.example.nit.pendura.R;
+
 public class CadastroActivity extends AppCompatActivity {
 
     @Override
